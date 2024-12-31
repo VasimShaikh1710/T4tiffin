@@ -82,7 +82,7 @@ DATABASES = {
         'USER': 'root',  # Your MySQL username
         'PASSWORD': 'Itact#11',  # Your MySQL password
         'HOST': 'localhost',  # The host where the MySQL server is running
-        'PORT': '3306',  # Default MySQL port
+        'PORT': '3306',  # Defpython ault MySQL port
     }
 }
 
