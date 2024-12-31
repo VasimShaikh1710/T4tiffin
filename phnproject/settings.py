@@ -79,9 +79,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 't4tiffin',  # Your database name
-        'USER': 'root',  # Your MySQL username
+        'USER': 'vasim123',  # Your MySQL username
         'PASSWORD': 'Itact#11',  # Your MySQL password
-        'HOST': 'localhost',  # The host where the MySQL server is running
+        'HOST': 'vasim123.mysql.pythonanywhere-services.com',  # The host where the MySQL server is running
         'PORT': '3306',  # Defpython ault MySQL port
     }
 }
