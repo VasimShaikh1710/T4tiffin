@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-b5@q=wjf5$)58h1c$!-@%zdajuu5vp03++e9fpi7yk$ma5owfx'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -79,9 +79,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 't4tiffin',  # Your database name
-        'USER': 'vasim123',  # Your MySQL username
+        'USER': 'root',  # Your MySQL username
         'PASSWORD': 'Itact#11',  # Your MySQL password
-        'HOST': 'vasim123.mysql.pythonanywhere-services.com',  # The host where the MySQL server is running
+        'HOST': 'localhost',  # The host where the MySQL server is running
         'PORT': '3306',  # Defpython ault MySQL port
     }
 }
